@@ -27,27 +27,27 @@
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg">
             <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">Easy Astronomy</a>
+                <a class="navbar-brand text-light" href="{{ url('/') }}">Easy Astronomy</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse rounded" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="/community">{{ __('Community') }}</a>
+                            <a class="nav-link text-light" href="/community">{{ __('Community') }}</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/soon">{{ __('Partpicker') }}</a>
+                            <a class="nav-link text-light" href="/soon">{{ __('Partpicker') }}</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/soon">{{ __('Observing') }}</a>
+                            <a class="nav-link text-light" href="/soon">{{ __('Observing') }}</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/soon">{{ __('News') }}</a>
+                            <a class="nav-link text-light" href="/soon">{{ __('News') }}</a>
                         </li>
                     </ul>
 
@@ -65,7 +65,7 @@
 
                         @if (Route::has('login'))
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('login') }}">{{ __('Sign in') }}</a>
+                            <a class="nav-link text-light" href="{{ route('login') }}">{{ __('Sign in') }}</a>
                         </li>
                         @endif
                         @else

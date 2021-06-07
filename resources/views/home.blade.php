@@ -2,13 +2,13 @@
 
 @section('content')
 <div class="p-5 mb-4 bg-light banner-home">
-  <div class="container-fluid py-5">
-    <h1 class="display-5 fw-bold">Custom jumbotron</h1>
-    <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-    <button class="btn btn-primary btn-lg" type="button">Example button</button>
+  <div class="container py-5">
+    <h1 class="display-5 text-light fw-bold">Welcome to Easy Astronomy</h1>
+    <p class="col-md-8 fs-4 text-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo, aut?</p>
+    <button class="btn btn-secondary btn-lg" type="button">Start learning today!</button>
   </div>
 </div>
-<img src="img/space.jpg" class="img-fluid banner" alt="...">
+<img src="img/space.jpg" class="img-fluid banner position-absolute" alt="...">
 
 <div class="container pt-5">
     <div class="row justify-content-center text-center">

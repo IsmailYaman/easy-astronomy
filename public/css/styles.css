@@ -29,13 +29,23 @@ ul{
 /* Classes Alphabetically */
 
 .banner-home{
-  background-image: url(img/space.jpg);
+  background-color: transparent!important;
 }
 
 .banner{
   object-fit: cover;
-  height: 500px;
+  height: 450px;
   width: 100%;
+  top: 0%;
+  z-index: -9999;
+}
+
+.banner-page{
+  object-fit: cover;
+  height: 250px;
+  width: 100%;
+  top: 0%;
+  z-index: -9999;
 }
 
 .btn{
@@ -76,14 +86,49 @@ ul{
   box-shadow: 0 0 0 0.2rem #343a4088;
 }
 
+.btn-secondary {
+  color: #343A40;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.btn-secondary:hover {
+  color: #343A40;
+  background-color: #dbdee0;
+  border-color: #dbdee0;
+}
+
+.btn-secondary:focus, .btn-secondary.focus {
+  color: #343A40;
+  background-color: #dadada;
+  border-color: #dadada;
+  box-shadow: 0 0 0 0.2rem #343a4088;
+}
+
+.btn-secondary.disabled, .btn-secondary:disabled {
+  color: #343A40;
+  background-color: #9c9c9c60;
+  border-color: #9c9c9c60;
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active, .show > .btn-secondary.dropdown-toggle {
+  color: #343A40;
+  background-color: #f8f9fa;
+  border-color: #dbdee0;
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:not(:disabled):not(.disabled).active:focus, .show > .btn-secondary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem #f8f9fa;
+}
+
 .card{
   border: none;
   transition: all 100ms ease;
 }
 
-.card:hover{
+/* .card:hover{
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
-}
+} */
 
 .footer-social{
   color: var(--primary);
@@ -109,6 +154,22 @@ ul{
   height: 90px;
 }
 
+.navbar-collapse {
+  /* background: #f8fafc; */
+  z-index: 9999;
+  padding: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.nav-link.text-light:hover{
+  color: #ffffff!important;
+}
+.navbar-brand.text-light:hover{
+  color: #ffffff!important;
+}
 .navbar-brand{
   font-weight: 900;
 }
@@ -119,4 +180,21 @@ ul{
 
 .nav-link:hover{
   font-weight: 900;
+}
+
+.navbar-light .navbar-toggler{
+  border: none;
+}
+
+.page-background{
+  border-radius: 1rem;
+  padding: 30px;
+}
+
+.post-card, .post-image{
+  border-radius: 1rem;
+}
+
+.post-card:hover{
+  box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%) !important;
 }
