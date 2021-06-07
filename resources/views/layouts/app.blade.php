@@ -38,16 +38,16 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('login') }}">{{ __('Community') }}</a>
+                            <a class="nav-link" href="/community">{{ __('Community') }}</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('login') }}">{{ __('Partpicker') }}</a>
+                            <a class="nav-link" href="/soon">{{ __('Partpicker') }}</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('login') }}">{{ __('Observing') }}</a>
+                            <a class="nav-link" href="/soon">{{ __('Observing') }}</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('login') }}">{{ __('News') }}</a>
+                            <a class="nav-link" href="/soon">{{ __('News') }}</a>
                         </li>
                     </ul>
 
@@ -92,7 +92,7 @@
             </div>
         </nav>
 
-        <main class="py-4">
+        <main>
             @yield('content')
         </main>
     </div>
@@ -105,20 +105,20 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
                     <h3>Menu</h3>
-                    <ul class="">
-                        <li class=""><a href="">Community</a></li>
-                        <li class=""><a href="">Partpicker</a></li>
-                        <li class=""><a href="">Observing</a></li>
-                        <li class=""><a href="">News</a></li>
+                    <ul>
+                        <li><a href="">Community</a></li>
+                        <li><a href="">Partpicker</a></li>
+                        <li><a href="">Observing</a></li>
+                        <li><a href="">News</a></li>
                       </ul>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
                     <h3>Contact</h3>
                     <ul class="">
-                        <li class=""><a href="">Link</a></li>
-                        <li class=""><a href="">Link</a></li>
-                        <li class=""><a href="">Link</a></li>
-                        <li class=""><a href="">Link</a></li>
+                        <li><a href="">Link</a></li>
+                        <li><a href="">Link</a></li>
+                        <li><a href="">Link</a></li>
+                        <li><a href="">Link</a></li>
                       </ul>
                 </div>
                 <div class="col-lg-3 col-md-4 col-12">
@@ -140,6 +140,6 @@
             <p class="text-center mt-3"> Copyright © 2021. All rights reserved.</p>
         </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </body>
-test
 </html>

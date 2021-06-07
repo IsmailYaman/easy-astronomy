@@ -17,6 +17,13 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/soon', function () {
+    return view('soon');
+});
+Route::get('/community', function () {
+    return view('community');
+});
+
 Route::get('/about', function () {
     return view('about');
 });
