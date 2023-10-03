@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This was a school project where I had to make a website using Laravel
+This was a school project where I had to make a website using Laravel.
 
 ## Prerequisites
 
